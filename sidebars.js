@@ -67,7 +67,13 @@ const sidebars = {
     'retention',
     'contribution-guidelines',
     'community',
-    
+    {
+      type: 'category',
+      label: 'SPL Search Commands',
+      items: [
+        'spl-search-commands/eval',
+      ],
+    },
   ],
   
 };
